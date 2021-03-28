@@ -55,10 +55,9 @@ p {
   text-decoration: none;
 }
 
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+.primary-link:hover {
   color: white;
+  background-color: #5751ca;
 }
 
 .about-link {
