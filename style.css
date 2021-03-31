@@ -16,10 +16,12 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: 'New Tegomin', serif;
 }
 
 h2 {
   font-size: 48px;
+  font-family: 'Acme', sans-serif;
 }
 
 h3 {
@@ -28,8 +30,9 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navigation-links {
