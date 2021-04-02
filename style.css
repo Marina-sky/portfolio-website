@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #7da875;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 100px 0 70px 0;
+  background: #FEFFDE;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 h1,
@@ -15,8 +16,10 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 62px;
   font-family: 'New Tegomin', serif;
+  margin: 50px;
+  color: #191919;
 }
 
 h2 {
@@ -32,13 +35,20 @@ h3 {
 p {
   font-size: 20px;
   line-height: 1.5;
-  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  padding: 0 50px;
+}
+
+.intro {
+  color: var(--primary-color);
 }
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
-  justify-content: center;
+  margin: 50px;
+  justify-content: left;
 }
 
 .navigation-links a {
@@ -47,6 +57,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-size: 15px;
 }
 
 .primary-link {
@@ -60,7 +71,7 @@ p {
 
 .primary-link:hover {
   color: white;
-  background-color: #5751ca;
+  background-color: #91C788;
 }
 
 .about-link {
@@ -69,6 +80,10 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+}
+
+.about-link:hover {
+  color: #547050;
 }
 
 .homepage-link {
