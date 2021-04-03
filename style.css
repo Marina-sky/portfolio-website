@@ -5,8 +5,8 @@
 
 body {
   margin: 100px 0 70px 0;
-  background: #FEFFDE;
-  font-family: 'Montserrat', sans-serif;;
+  background: #feffde;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,
@@ -17,14 +17,13 @@ h3 {
 
 h1 {
   font-size: 62px;
-  font-family: 'New Tegomin', serif;
-  margin: 50px;
+  font-family: "New Tegomin", serif;
   color: #191919;
 }
 
 h2 {
   font-size: 48px;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
 }
 
 h3 {
@@ -37,8 +36,15 @@ p {
   line-height: 1.5;
 }
 
+img {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
 .hero {
   padding: 0 50px;
+  margin: 50px;
 }
 
 .intro {
@@ -47,8 +53,8 @@ p {
 
 .navigation-links {
   display: flex;
-  margin: 50px;
   justify-content: left;
+  margin: 40px 0;
 }
 
 .navigation-links a {
@@ -56,7 +62,6 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
   font-size: 15px;
 }
 
@@ -71,7 +76,7 @@ p {
 
 .primary-link:hover {
   color: white;
-  background-color: #91C788;
+  background-color: #91c788;
 }
 
 .about-link {
@@ -86,10 +91,15 @@ p {
   color: #547050;
 }
 
-.homepage-link {
+.social-links {
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+}
+
+.social-links a {
+  margin: 10px;
   color: var(--primary-color);
-  text-align: center;
-  display: block;
 }
 
 .about-paragraph {
@@ -113,15 +123,15 @@ p {
 }
 
 @media (max-width: 576px) {
-  
   h1 {
-    font-size: 48px;
+    font-size: 30px;
   }
 
   h2 {
     font-size: 32px;
     text-align: center;
     line-height: 1.5;
+    margin-top: 20px;
   }
 
   h3 {
@@ -130,6 +140,16 @@ p {
 
   p {
     text-align: center;
+    font-size: 17px;
+  }
+
+  .hero {
+    padding: 0;
+    margin: 0 20px;
+  }
+
+  .navigation-links {
+    margin: 20px 0;
   }
 
   .project-link {
@@ -137,5 +157,4 @@ p {
     text-align: center;
     margin: 0 70px;
   }
-
 }
