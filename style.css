@@ -7,6 +7,7 @@ body {
   margin: 100px 0 70px 0;
   background: #feffde;
   font-family: "Montserrat", sans-serif;
+  color: #191919;
 }
 
 h1,
@@ -18,7 +19,6 @@ h3 {
 h1 {
   font-size: 62px;
   font-family: "New Tegomin", serif;
-  color: #191919;
 }
 
 h2 {
@@ -40,6 +40,10 @@ img {
   padding: 20px;
   background: white;
   border-radius: 10px;
+}
+
+.navbar {
+  background-color: wheat;
 }
 
 .hero {
@@ -100,6 +104,10 @@ img {
 .social-links a {
   margin: 10px;
   color: var(--primary-color);
+}
+
+.social-links a:hover {
+  color: #91c788;
 }
 
 .about-paragraph {
