@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: 100px 0 70px 0;
+  margin: 100px 0 50px 0;
   background: #feffde;
   font-family: "Montserrat", sans-serif;
   color: #191919;
@@ -134,6 +134,7 @@ img {
 
   h3 {
     margin-top: 10px;
+    font-size: 20px;
   }
 
   p {
@@ -154,5 +155,13 @@ img {
     display: block;
     text-align: center;
     margin: 0 70px;
+  }
+
+  .about-section {
+    padding: 20px;;
+  }
+
+  .about-paragraph p {
+    text-align: left;
   }
 }
