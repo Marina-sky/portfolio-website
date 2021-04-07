@@ -120,6 +120,16 @@ img {
   margin: 30px;
 }
 
+.shecodes-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.shecodes-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
