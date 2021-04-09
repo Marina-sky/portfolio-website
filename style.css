@@ -42,6 +42,10 @@ img {
   border-radius: 10px;
 }
 
+a:hover {
+  transition: all 100ms ease-in-out;
+}
+
 .navbar {
   background-color: wheat;
 }
