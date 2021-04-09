@@ -46,6 +46,10 @@ img {
   background-color: wheat;
 }
 
+.nav-item {
+  padding: 0 10px;
+}
+
 .hero {
   padding: 0 50px;
   margin: 50px;
