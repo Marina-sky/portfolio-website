@@ -42,8 +42,15 @@ img {
   border-radius: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 a:hover {
   transition: all 100ms ease-in-out;
+  text-decoration: underline;
+  color: var(--primary-color);
 }
 
 .navbar {
@@ -126,16 +133,6 @@ a:hover {
 
 .about-paragraph {
   margin: 30px;
-}
-
-.shecodes-link {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.shecodes-link:hover {
-  text-decoration: underline;
-  color: var(--primary-color);
 }
 
 @media (max-width: 576px) {
